@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+}
+
+.card-body {
+    font-size: 1.1rem;
+}
+
+.h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Skills Section */
+#Skills {
+    padding: 50px 0;
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+
+/* Certifications Section */
+#ProjectsandCertifications {
+    padding: 50px 0;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#ProjectsandCertifications {
+    position: relative;
+    z-index: 1; 
+}    
+#ProjectsandCertifications .col-3{
+    z-index: 0;
+}
+
+body{
+    background: #d8d8d8;
+}
+
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
